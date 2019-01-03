@@ -20,7 +20,7 @@ const logDriversByHometown = function (drivers, hometown) {
     return firstDriver.name.localeCompare(secondDriver.name); });
 				};
 				
-							var totalRevenue = function (Driver) {
+		var totalRevenue = function (Driver) {
   return Driver.reduce(function (sumation, thedriver) {
     return thedriver.income + sumation; });
 };
