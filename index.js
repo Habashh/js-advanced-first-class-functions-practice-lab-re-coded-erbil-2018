@@ -13,7 +13,7 @@ const logDriversByHometown = function (drivers, hometown) {
       }
       const driversByRevenue = function (drivers, Revenue) {
   drivers.forEach(function (driver) {
-    return drivers.sort(drivers.Revenue) 
+    return drivers.slice().sort(drivers.Revenue) 
       console.log(drivers.name);
     
   });
