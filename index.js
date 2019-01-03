@@ -22,6 +22,6 @@ const logDriversByHometown = function (drivers, hometown) {
 				
 		var totalRevenue = function (Driver) {
   return Driver.reduce(function (sumation, thedriver) {
-    return thedriver.income + sumation; });
+    return thedriver.income + sumation});
 };
 				
