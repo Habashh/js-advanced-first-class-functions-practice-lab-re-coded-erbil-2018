@@ -20,8 +20,10 @@ const logDriversByHometown = function (drivers, hometown) {
     return firstDriver.name.localeCompare(secondDriver.name); });
 				};
 				
-		var totalRevenue = function (drivers) {
-  return drivers.reduce(function (sumation, thedriver) {
-    return thedriver. revenue  + sumation});
+		const totalRevenue = function (drivers) {
+  return drivers.reduce(function (total, currentDriver) {
+    return currentDriver.revenue + total;
+  }, 0);
 };
+
 				
