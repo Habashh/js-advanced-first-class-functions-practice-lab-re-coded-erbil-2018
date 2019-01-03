@@ -20,3 +20,8 @@ const logDriversByHometown = function (drivers, hometown) {
     return firstDriver.name.localeCompare(secondDriver.name); });
 				};
 				
+				var driversByName = function (driver) {
+  return driver.slice().sort(function (firstDriver, secondDriver) {
+    return firstDriver.name.localeCompare(secondDriver.name); });
+				};
+				
