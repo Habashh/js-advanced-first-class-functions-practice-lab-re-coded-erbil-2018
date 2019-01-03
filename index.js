@@ -11,10 +11,7 @@ const logDriversByHometown = function (drivers, hometown) {
     }
      })
       }
-      const driversByRevenue = function (drivers, Revenue) {
-  drivers.forEach(function (driver) {
-    return drivers.slice().sort(drivers.Revenue) 
-      console.log(drivers.name);
-    
-  });
-};
+      var driversByRevenue = function (driver) {
+  return driver.slice().sort(function (firstDriver, secondDriver) {
+    return firstDriver.revenue - secondDriver.revenue; });
+				};
